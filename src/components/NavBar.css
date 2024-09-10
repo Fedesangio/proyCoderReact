@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap");
+
+.style {
+    width: 100%;
+    padding: 0px 30px; /*Margen lateral de la barra*/
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.592);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

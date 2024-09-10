@@ -1,0 +1,24 @@
+.conteinerStyle {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgba(233, 231, 231, 0), rgba(138, 134, 134, 0.863)), url(../assets/fondo-prueba-126.jpg);
+}
+
+.colortexto {
+    background-color: #ffffffce;
+    color: #036003;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 60px;
+    border-radius: 10px;
+    padding: 5px 40px 5px 40px;
+    height: 100px;
+    font-family: "truculenta";
+    font-style: inherit;
+    font-weight: bold;
+
+}
