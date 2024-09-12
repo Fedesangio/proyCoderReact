@@ -1,7 +1,6 @@
 import BotonNav from './BotonNav';
 import CartWidget from './CartWidget';
 import ImgNav from './ImgNav';
-import ItemListContainer from './ItemListContainer';
 import './NavBar.css';
 
 export default function NavBar () {
@@ -19,7 +18,7 @@ export default function NavBar () {
     <CartWidget/>
     </div>
     </div>
-    <ItemListContainer saludo="Hola como andas?"/>
+
     </>
     )
 };
