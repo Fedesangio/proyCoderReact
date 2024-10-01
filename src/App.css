@@ -1,6 +1,25 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+
+body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /*HACE QUE LOS ELEMENTOS MIDAN LO QUE TIENEN QUE MEDIR*/
-}
+    background-color: #f0f0f0;
+
+  }
+  
+  h1, h2, h3 {
+    font-family: 'truculenta', sans-serif;
+  }
+  
+  .containerStyle {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .itemlistgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }

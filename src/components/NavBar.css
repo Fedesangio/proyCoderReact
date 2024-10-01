@@ -1,13 +1,36 @@
-@import url("https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap");
-
-.style {
-    width: 100%;
-    padding: 0px 30px; /*Margen lateral de la barra*/
-    height: auto;
-    background-color: rgba(0, 0, 0, 0.592);
-    position: fixed;
+nav {
+    background-color: #333;
+    padding: 10px 20px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-}
-
+    align-items: center;
+  }
+  
+  nav .brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    font-family: "truculenta";
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  nav ul li a:hover {
+    color: #ffd700;
+  }

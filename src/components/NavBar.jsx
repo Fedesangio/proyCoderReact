@@ -1,24 +1,20 @@
-
-import BotonNav from './BotonNav';
+import { Link } from 'react-router-dom';
 import CartWidget from './CartWidget';
-import ImgNav from './ImgNav';
+
 import './NavBar.css';
 
-export default function NavBar () {
-    return(
-    <>
-    <div className='style color'>
-    <ImgNav imagen="./src/assets/logoblanco.png" estilo="imgLogo"/>
-    <div>
-    <BotonNav titulo='Chocolate' Link to={'/category/chocolate'} />
-    <BotonNav titulo='Nieve' Link to={'/category/nieve'}/>
-    <BotonNav titulo='Premium' Link to={'/category/premium'}/>
-    </div>
-    <div className='cartContenedor'>
+export default function NavBar() {
+  return (
+    <nav>
+      <Link to="/" className="brand">Punta Ballena</Link>
+      <ul>
+        <li><Link to="/category/Chocolate">Chocolate</Link></li>
+        <li><Link to="/category/Nieve">Nieve</Link></li>
+        <li><Link to="/category/Premium">Premium</Link></li>
+      </ul>
+      <div className='cartContenedor'>
     <CartWidget/>
     </div>
-    </div>
-
-    </>
-    )
-};
+    </nav>
+  );
+}

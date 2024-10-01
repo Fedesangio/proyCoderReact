@@ -1,7 +1,7 @@
 .itemlistgrid {
     margin: auto;
     width: 80%;
-    padding-top: 120px;
+
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);

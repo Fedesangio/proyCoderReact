@@ -1,9 +1,14 @@
-.conteinerStyle {
-    width: 100%;
-    height: 100vh;
-
-    background: linear-gradient(to bottom, rgba(233, 231, 231, 0), rgba(138, 134, 134, 0.863)), url(../assets/fondo-prueba-126.jpg);
-}
+.containerStyle {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .itemlistgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
 
 /* .colortexto {
     background-color: #ffffffce;
