@@ -1,3 +1,4 @@
+
 import BotonNav from './BotonNav';
 import CartWidget from './CartWidget';
 import ImgNav from './ImgNav';
@@ -9,10 +10,9 @@ export default function NavBar () {
     <div className='style color'>
     <ImgNav imagen="./src/assets/logoblanco.png" estilo="imgLogo"/>
     <div>
-    <BotonNav/>
-    <BotonNav/>
-    <BotonNav/>
-    <BotonNav/>
+    <BotonNav titulo='Chocolate' Link to={'/category/chocolate'} />
+    <BotonNav titulo='Nieve' Link to={'/category/nieve'}/>
+    <BotonNav titulo='Premium' Link to={'/category/premium'}/>
     </div>
     <div className='cartContenedor'>
     <CartWidget/>

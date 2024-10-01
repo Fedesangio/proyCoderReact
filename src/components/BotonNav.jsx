@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import './BotonNav.css';
 
-export default function BotonNav () {
+export default function BotonNav ({titulo}) {
     return (
-        <> <button className='botonNav'>Home</button>
+        <> <button className='botonNav'>{titulo}</button>
         </>
     )
 }
